@@ -1,0 +1,105 @@
+.nav-bar {
+  width: 1279px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.home{
+    align-self: flex-start;
+}
+
+.nav-bar p{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;  
+    margin: 30px; 
+}
+
+
+.main-contents {
+    display: inline;
+}
+
+.main-contents img{
+    width: 854px;
+    height: 320px;
+    flex-shrink: 0;   
+}
+
+.main-contents h1{
+    width: 301px;
+    flex-shrink: 0; 
+    color: #000;
+    font-family: Hiragino Kaku Gothic Std;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 5.6px;  
+}
+
+.main-contents p{
+    width: 490px;
+    height: 134px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;   
+}
+
+.content-description{
+    display: block;
+}
+
+.head{
+    display: flex
+}
+
+
+button{
+    width: 178.476px;
+    height: 41px;
+    background: #F15D51;
+    border-style: none;
+}
+
+.txt-1{
+    display: flex;
+}
+
+.txt-2{display: flex;}
+.txt-3{display: flex;}
+
+.the-main{
+    display: flex;
+}
+
+.card{
+    background: #00001A;
+    color:white;
+    width: 300px;
+    height: 500px;
+
+    margin-left: 10px;
+}
+
+.contents {
+    width: 1226px;
+    height: 161px;
+    display: flex;
+}
+
+.contents img{
+    width: 162px;
+    height: 157px;
+    flex-shrink: 0;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+$contentClass : 'nav-bar' ,'main-contents', 'contents';
+$width : 1,2,3;
+
+
+
+
+@each $cC, $wid in $contentClass, $width{
+    hi-.#{$cC}{
+        color: red;
+        width: $wid;
+    }
+}
